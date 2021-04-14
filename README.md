@@ -19,3 +19,11 @@ HW 14 - docker-4
 HW 15 Выполнена основная работа:
 - Файл [docker-compose.yml](gitlab-ci/docker-compose.yml) для развертывания gitlab.
 - Пайплаин [.gitlab-ci.yml](.gitlab-ci.yml)
+
+HW 16 Выполнена основная работа:
+- Файл [docker-compose.yml](docker/docker-compose.yml) для развертывания мониторинга.
+Ссыдки на образы:
+- [kholcold/ui](https://hub.docker.com/r/kholcold/ui)
+- [kholcold/comment](https://hub.docker.com/r/kholcold/comment)
+- [kholcold/post](https://hub.docker.com/r/kholcold/post)
+- [kholcold/prometheus](https://hub.docker.com/r/kholcold/prometheus)
