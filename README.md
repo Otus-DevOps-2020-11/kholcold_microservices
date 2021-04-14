@@ -27,3 +27,6 @@ HW 16 Выполнена основная работа:
 - [kholcold/comment](https://hub.docker.com/r/kholcold/comment)
 - [kholcold/post](https://hub.docker.com/r/kholcold/post)
 - [kholcold/prometheus](https://hub.docker.com/r/kholcold/prometheus)
+
+HW 17 Выполнена основная работа:
+- Добавили в мониторинг grafana и alertmanager [monitoring](monitoring)
