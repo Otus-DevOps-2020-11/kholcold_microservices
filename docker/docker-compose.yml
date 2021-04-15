@@ -11,26 +11,38 @@ services:
   ui:
     env_file:
       - ./.env
-    image: ${USER_NAME}/ui
+    environment:
+      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
+    image: ${USER_NAME}/ui:logging
     ports:
       - ${UI_HOST_PORT}:${UI_CONTAINER_PORT}/tcp
     networks:
       - front_net
+    logging:
+      driver: "fluentd"
+      options:
+        fluentd-address: localhost:24224
+        tag: service.ui
   post: 
     env_file:
       - ./.env
-    #environment:
-    # - POST_DATABASE_HOST=post_db
-    image: ${USER_NAME}/post
+    environment:
+      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
+    image: ${USER_NAME}/post:logging
     networks:
       - back_net
       - front_net
+    logging:
+      driver: "fluentd"
+      options:
+        fluentd-address: localhost:24224
+        tag: service.post
   comment:
     env_file:
       - ./.env
-    #environment:
-    #  - COMMENT_DATABASE_HOST=post_db
-    image: ${USER_NAME}/comment
+    environment:
+      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
+    image: ${USER_NAME}/comment:logging
     networks:
       - back_net
       - front_net
