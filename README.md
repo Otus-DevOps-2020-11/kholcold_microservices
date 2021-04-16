@@ -20,7 +20,7 @@ HW 15 Выполнена основная работа:
 - Файл [docker-compose.yml](gitlab-ci/docker-compose.yml) для развертывания gitlab.
 - Пайплаин [.gitlab-ci.yml](.gitlab-ci.yml)
 
-HW 16 Выполнена основная работа:
+HW 16 Создание и запуск системы мониторинга Prometheus:
 - Файл [docker-compose.yml](docker/docker-compose.yml) для развертывания мониторинга.
 Ссыдки на образы:
 - [kholcold/ui](https://hub.docker.com/r/kholcold/ui)
@@ -28,5 +28,10 @@ HW 16 Выполнена основная работа:
 - [kholcold/post](https://hub.docker.com/r/kholcold/post)
 - [kholcold/prometheus](https://hub.docker.com/r/kholcold/prometheus)
 
-HW 17 Выполнена основная работа:
+HW 17 Мониторинг приложения и инфраструктуры:
 - Добавили в мониторинг grafana и alertmanager [monitoring](monitoring)
+
+HW 18 Логирование приложений:
+- Создал compose-файл для системы логирования [docker-compose-logging.yml](docker/docker-compose-logging.yml)
+- Создал [Dockerfile](logging/fluentd/Dockerfile) для Fluentd
+- Создал конфигурацию для fluetnd [fluent.conf](logging/fluentd/fluent.conf)
