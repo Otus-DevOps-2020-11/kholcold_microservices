@@ -35,3 +35,6 @@ HW 18 Логирование приложений:
 - Создал compose-файл для системы логирования [docker-compose-logging.yml](docker/docker-compose-logging.yml)
 - Создал [Dockerfile](logging/fluentd/Dockerfile) для Fluentd
 - Создал конфигурацию для fluetnd [fluent.conf](logging/fluentd/fluent.conf)
+
+HW 19 Установка и настройка Kubernetes
+- Файлы с Deployment манифестами приложений [kubernetes/reddit](kubernetes/reddit)
