@@ -38,3 +38,8 @@ HW 18 Логирование приложений:
 
 HW 19 Установка и настройка Kubernetes
 - Файлы с Deployment манифестами приложений [kubernetes/reddit](kubernetes/reddit)
+
+HW 20 Установка и настройка yandex cloud Kubernetes Engine, настройка локального профиля администратора для yandex cloud. Работа с с контроллерами: StatefulSet, Deployment, DaemonSet
+- Директория с файлами [kubernetes/reddit](kubernetes/reddit)
+- Скриншот веб интерфейса:
+![](pic/k8s.png)
