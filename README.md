@@ -43,3 +43,6 @@ HW 20 Установка и настройка yandex cloud Kubernetes Engine, �
 - Директория с файлами [kubernetes/reddit](kubernetes/reddit)
 - Скриншот веб интерфейса:
 ![](pic/k8s.png)
+
+HW 21 Настройка балансировщиков нагрузки в Kubernetes и SSL­Terminating
+- Директория с файлами [kubernetes/reddit](kubernetes/reddit)
